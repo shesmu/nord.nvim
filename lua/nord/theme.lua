@@ -288,8 +288,8 @@ theme.loadTreeSitter = function()
 		["@symbol"] = { fg = nord.nord15_gui },
 		["@type"] = { fg = nord.nord9_gui },
 		["@type.builtin"] = { fg = nord.nord9_gui },
-		["@tag"] = { fg = nord.nord4_gui },
-		["@tag.delimiter"] = { fg = nord.nord15_gui },
+		["@tag"] = { fg = nord.nord9_gui },
+    ["@tag.attribute"] = { fg = nord.nord7_gui },
 		["@text"] = { fg = nord.nord4_gui },
 		["@text.reference"] = { fg = nord.nord15_gui, style = bold },
 		["@text.emphasis"] = { fg = nord.nord10_gui, style = italic },
@@ -309,7 +309,6 @@ theme.loadTreeSitter = function()
 		-- @text.note
 		-- @text.warning
 		-- @text.danger
-		-- @tag.attribute
 		-- @string.special
 	}
 
